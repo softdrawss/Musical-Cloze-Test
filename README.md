@@ -31,17 +31,17 @@ cross-validation on the full music21 Bach chorale corpus (412 pieces).
 
 ### Research Questions
 
-1. **RQ1 — Model order:** Trigram significantly outperforms bigram and unigram
+1. **RQ1: Model order:** Trigram significantly outperforms bigram and unigram
    (Wilcoxon p < 10⁻⁴⁰). Effect size (rank-biserial): bigram→trigram r = 0.877.
-2. **RQ2 — Entropy vs. accuracy:** No significant correlation (r = -0.030,
+2. **RQ2: Entropy vs. accuracy:** No significant correlation (r = -0.030,
    p = 5.45e-01). Predictability is a property of sequences, not vocabularies.
-3. **RQ3 — Voice parts:** Outer voices (soprano 39.7%,
+3. **RQ3: Voice parts:** Outer voices (soprano 39.7%,
    bass 40.2%) are more predictable than inner voices
    (alto 33.7%, tenor 35.8%).
    Kruskal-Wallis H = 157.6, ε² = 0.0942.
-4. **RQ4 — Phrase position:** Beginnings are slightly more predictable than middles.
+4. **RQ4: Phrase position:** Beginnings are slightly more predictable than middles.
    Fermata-based segmentation reveals clearer patterns than coarse thirds.
-5. **RQ5 — Benchmark:** Our trigram cross-entropy (2.726 bits/note)
+5. **RQ5: Benchmark:** Our trigram cross-entropy (2.726 bits/note)
    falls within Conklin & Witten's (1995) 2.5–3.5 range.
 
 ### Extensions (Supplementary)
@@ -105,5 +105,3 @@ leave-one-out loop over 412 chorales is the bottleneck).
 11. Zeng et al. (2021). MusicBERT.
 12. Temperley (2007). Music and Probability.
 13. Rohrmeier & Graepel (2012). Comparing feature-based models of harmony.
-
-### License
