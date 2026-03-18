@@ -3,7 +3,7 @@
 ## Quantifying Melodic Predictability in Bach Chorales via Information-Theoretic Methods
 
 **Júlia Serra Trujillo & Lydia Krifka-Dobes**
-Computational & Cognitive Musicology
+Symbolic Music Analysis and Computational Musicology
 
 ---
 
